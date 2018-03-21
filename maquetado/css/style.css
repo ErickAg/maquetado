@@ -1,52 +1,62 @@
-header: ;{
+header{
 	width: 100%;
-	height: 160px;
-	background: #ccc;
- }
+	height: 1045px;
+	position: relative;
+}
 .topHeader{
 	background: #008bc7;
-	height: 40px;
+	height: 48px;
 }
-.bottonHeader{
-	background-color: rgba(0,0,0,.6);
-	height: 88px;
+.login{
+	height: 100%;
 }
-.login{height: 100%}
 .login a{
-	color: #FFF;
-	display: block; 
+	color: #fff;
+	display: block;
 	padding: 12px;
 	margin-right: 200px;
 }
- .logo{
-	width: 313px;
-	padding: 7px 0px;
-	float: left;
+.bottomHeader{
+	background: #20222e;
+	height: 116px;
 }
-.container{
-	height: 88px;
-	width: 100%;
-	align-content: center;
-}
-nav>ul>li>a{
-	color: #FFFFFF;
-    font-size: 16px;
-    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;    
-}
-nav>ul>li{
-	float:left;
-	padding: 32px;
-    width: 120px;
-}
-nav>ul{
+.logo{
 	height: 100%;
-	margin: 0px;
-	padding: 0px;
+	margin-left: 190px;
+	padding: 23px;
 }
 nav{
-	height: 100%;
 	float: right;
+	height: 100%;
+	margin-right: 154px;
 }
-body{
-	background: #0080FF;
+nav li{
+	display: inline-flex;
+}
+nav a{
+	color: #fff;
+	padding: 43px;
+}
+nav a:hover{
+	color: #fff;
+	background: #20222e;
+	border-bottom: 6px solid #edaa3d; 
+}
+#slider{
+	width: 100%;
+	height: ;
+}
+#contenedorNosotros {
+	width: 100%;
+	height: 834px;
+	background: url(../img/slide2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+h2{
+	font-family: "Montserrat" , sans-serif;
+	font-weight: 300;
+	color: #FEFEFE;
+	font-size: 28px;
 }
