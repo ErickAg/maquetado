@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>TS & Garza</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
@@ -19,18 +18,19 @@
 			<div class="logo float-left">
 				<img src="img/logo.png" alt="TS & Garza Logo">
 			</div>
-			<nav>
 				<ul>
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Nosotros</a></li>
-					<li class="activo"><a href="#">Servicios</a></li>
-					<li><a href="#">Contacto</a></li>
-					<li><a href="#">Noticias</a></li>
-				</ul>
-			</nav>
+					<div class="topnav" id="myTopnav">
+  						<a href="#inicio">Inicio</a>
+  						<a href="#nosotros">Nosotros</a>
+  						<a href="#servicios">Servicios</a>
+  						<a href="#contacto">Contacto</a>
+  						<a href="#noticias">Noticias</a>
+  						<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+					</div>
+				</ul>				
 		</div>
 		<div id="slider">
-			<img src="img/slide1.jpg" alt="">
+			<img src="" alt="">
 		</div>
 	</header>
 	<div class="clearfix"></div>
@@ -47,19 +47,69 @@
 			</div>
 		</div>
 	</section>
+	<section id="contenedorHistorial">
+		<div class="container">
+			<ul class="nav justify-content-center">
+  				<li class="nav-item">
+    				<a class="nav-link active" href="#"><h2 class="text-center">5</h2><br/><p>Sucursales</p></a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" href="#"><h2 class="text-center">10</h2><br/><p>Años de experiencia</p></a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" href="#"><h2 class="text-center">1,080</h2><br/><p>Clientes Satisfechos</p></a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link active" href="#"><h2 class="text-center">253</h2><br/><p>Empleados de TS</p></a>
+  				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="contenedorImagenes">
+		<div class="row">
+  			<div class="col-sm-4 col-md-4">
+    			<a href="#" class="thumbnail">
+      			<img src="img/img1.jpg" alt="img1" class="img-thumbnail">
+    			</a>
+  			</div>
+  				<div class="col-sm-4 col-md-4">
+    				<a href="#" class="thumbnail">
+      				<img src="img/img2.jpg" alt="img2" class="img-thumbnail">
+    				</a>
+				</div>
+					<div class="col-sm-4 col-md-4">
+    					<a href="#" class="thumbnail">
+      					<img src="img/img3.jpg" alt="img3" class="img-thumbnail">
+    					</a>
+					</div>
+					<br/>
+						<div class="col-sm-4 col-md-4">
+    						<a href="#" class="thumbnail">
+      						<img src="img/img4.jpg" alt="img4" class="img-thumbnail">
+    						</a>
+						</div>
+							<div class="col-sm-4 col-md-4">
+    							<a href="#" class="thumbnail">
+      							<img src="img/img5.jpg" alt="img5" class="img-thumbnail">
+    							</a>
+							</div>
+								<div class="col-sm-4 col-md-4">
+    								<a href="#" class="thumbnail">
+      								<img src="img/img6.jpg" alt="img6" class="img-thumbnail">
+    								</a>
+								</div>
+	</section>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script>
+		function myFunction() {
+    		var x = document.getElementById("myTopnav");
+    		if (x.className === "topnav") {
+        		x.className += " responsive";
+    		} else {
+        		x.className = "topnav";
+    		}
+		}
+	</script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
