@@ -39,7 +39,7 @@ function consultarServicios(){
 function eliminarServicios(){
 	global $db;
 	extract($_POST);
-	$servicio = $db->delete("servicios",["id_servicios" => $usuario]);
+	$servicio = $db->delete("servicios",["id_servicios" => $servicio]);
 	echo "Se ha eliminado el servicio correctamente";	
 }
 ?>
