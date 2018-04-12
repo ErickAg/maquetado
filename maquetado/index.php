@@ -51,7 +51,7 @@
 		<div class="container">
 			<ul class="nav justify-content-center">
   				<li class="nav-item">
-    				<a class="nav-link active" href="#"><h2 class="text-center">5</h2><br/><p>Sucursales</p></a>
+    				<a class="nav-link " href="#"><h2 class="text-center">5</h2><br/><p>Sucursales</p></a>
   				</li>
   				<li class="nav-item">
     				<a class="nav-link" href="#"><h2 class="text-center">10</h2><br/><p>Años de experiencia</p></a>
@@ -60,7 +60,7 @@
     				<a class="nav-link" href="#"><h2 class="text-center">1,080</h2><br/><p>Clientes Satisfechos</p></a>
   				</li>
   				<li class="nav-item">
-    				<a class="nav-link active" href="#"><h2 class="text-center">253</h2><br/><p>Empleados de TS</p></a>
+    				<a class="nav-link " href="#"><h2 class="text-center">253</h2><br/><p>Empleados de TS</p></a>
   				</li>
 			</ul>
 		</div>
@@ -99,6 +99,71 @@
     								</a>
 								</div>
 	</section>
+	<section id="contenedorApp">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center">CONECTATE A NUESTRA ACCOUNTING APP</h1>
+					<p class="text-center">Ingresa a nuestra aplicación para obtener toda su información</p>
+					<button id="button" type="button" class="btn btn-warning btn-lg">VER MÁS</button>
+	</section>
+	<section id="contenedorCiudades">
+		<div class="container">
+			<ul class="nav justify-content-center">
+  				<li class="nav-item">
+    				<a class="nav-link " href="#"><h2 class="text-center">CANCÚN</h2><br/><p>(998) 206-3254</p></a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" href="#"><h2 class="text-center">TIJUANA</h2><br/><p>(664) 615-8035</p></a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" href="#"><h2 class="text-center">GUADALAJARA</h2><br/><p>(664) 615-8035</p></a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link " href="#"><h2 class="text-center">MONTERREY</h2><br/><p>(664) 615-8035</p></a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link " href="#"><h2 class="text-center">MÉXICO D.F.</h2><br/><p>(664) 615-8035</p></a>
+  				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="contacto">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h4>CONTÁCTANOS</h4>
+					<form action="#" id="frmContacto" method="POST">
+						<div class="form-group">
+							<label for="nombre">Nombre Completo</label>
+							<input type="text" id="nombre" name="nombre" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="telefono">Numero Telefonico</label>
+							<input type="tel" id="telefono" name="telefono" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="correo">Correo Electronico</label>
+							<input type="email" id="correo" name="correo" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="comentario">Comentario</label>
+							<textarea name="comentario" id="comentario" class="form-control"></textarea>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-warning">Copyright - TS & DE LA GARZA Consultores</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script>
