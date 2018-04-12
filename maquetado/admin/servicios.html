@@ -14,8 +14,8 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active"><a href="usuarios.php" class="nav-link">Nuestros Servicios</a></li>
-			<li class="nav-item active"><a href="slider.php" class="nav-link">Slider</a></li>
+			<li class="nav-item active"><a href="servicios.php" class="nav-link">Nuestros Servicios</a></li>
+			<li class="nav-item active"><a href="servicios.php" class="nav-link">Slider</a></li>
 		</ul>
 	</nav>
 	<section class="container">
@@ -80,7 +80,7 @@
 			let id = $(this).data('id');
 			let obj = {
 				"accion" : "eliminarServicio",
-				"usuario" : id
+				"servicios" : id
 			};
 			$.post( "includes/_funciones.php",obj, function(data) {
 				alert(data);
